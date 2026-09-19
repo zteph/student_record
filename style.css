@@ -1,0 +1,16 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f7f7f7;color:#222}
+header{background:#b40000;color:#fff;padding:22px 7%;display:flex;justify-content:space-between;align-items:center;gap:15px}
+header h1{margin:0 0 5px;font-size:25px} header p{margin:0}
+.outline{color:#fff;border:1px solid #fff;border-radius:7px;padding:10px 14px;text-decoration:none}
+main{width:86%;max-width:1100px;margin:30px auto}
+.card{background:#fff;border:1px solid #e2e2e2;border-radius:12px;padding:25px;margin-bottom:25px;box-shadow:0 3px 12px #0000000a}
+h2{margin-top:0} form{display:grid;gap:8px} label{font-weight:bold;margin-top:8px}
+input{padding:12px;border:1px solid #ccc;border-radius:7px;font-size:15px}
+button,.edit{border:0;border-radius:7px;padding:10px 14px;font-weight:bold;cursor:pointer;background:#b40000;color:#fff;text-decoration:none;margin-top:8px}
+.table-wrap{overflow-x:auto} table{width:100%;border-collapse:collapse;margin-top:15px}
+th{background:#b40000;color:#fff;text-align:left} th,td{padding:13px;border-bottom:1px solid #eee}
+.actions{display:flex;gap:6px;align-items:center}.actions form{display:inline}.archive{background:#333}
+.alert{padding:13px 16px;border-radius:8px;margin-bottom:18px;font-weight:bold}.success{background:#eaf8ee;color:#176b35}.error{background:#fff0f0;color:#a00000}
+.muted{color:#777}
+@media(max-width:700px){header{flex-direction:column;align-items:flex-start}main{width:94%}.card{padding:18px}}
