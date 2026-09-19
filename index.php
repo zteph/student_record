@@ -6,7 +6,7 @@ $result = $conn->query("SELECT * FROM students WHERE is_archived=0 ORDER BY id D
 <html>
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Student Record System</title><link rel="stylesheet" href="css/style.css">
+<title>Student Record System</title><link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header><div><h1>Student Record System</h1><p>Student Management</p></div><a class="outline" href="archived.php">Archived Records</a></header>
