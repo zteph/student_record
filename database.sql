@@ -11,5 +11,5 @@ CREATE TABLE IF NOT EXISTS students (
 );
 
 INSERT INTO students (student_id, name, program) VALUES
-('2026-0001','Juan Dela Cruz','BS Information Technology'),
-('2026-0002','Maria Santos','BS Computer Science');
+('2026-0001','Stephanie Santos','BS Information Technology'),
+('2026-0002','Cristine Pahinag','BS Criminology');
