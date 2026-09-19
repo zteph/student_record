@@ -7,7 +7,7 @@ $student = $stmt->get_result()->fetch_assoc();
 if (!$student) { header("Location: index.php?error=Student record not found."); exit; }
 ?>
 <!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Edit Student</title><link rel="stylesheet" href="css/style.css"></head>
+<title>Edit Student</title><link rel="stylesheet" href="style.css"></head>
 <body>
 <header><div><h1>Student Record System</h1><p>Edit Student Record</p></div><a class="outline" href="index.php">Back</a></header>
 <main><section class="card"><h2>Update Student</h2>
