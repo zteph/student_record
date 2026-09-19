@@ -3,7 +3,7 @@ require_once "db.php";
 $result=$conn->query("SELECT * FROM students WHERE is_archived=1 ORDER BY id DESC");
 ?>
 <!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Archived Records</title><link rel="stylesheet" href="css/style.css"></head>
+<title>Archived Records</title><link rel="stylesheet" href="style.css"></head>
 <body>
 <header><div><h1>Student Record System</h1><p>Archived Records</p></div><a class="outline" href="index.php">Back to Records</a></header>
 <main>
