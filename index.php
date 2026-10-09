@@ -1,4 +1,4 @@
-<?php
+<?hp
 require_once "db.php";
 $result = $conn->query("SELECT * FROM students WHERE is_archived=0 ORDER BY id DESC");
 ?>
